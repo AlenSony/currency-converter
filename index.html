@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Boldonse&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Badeen+Display&family=Boldonse&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="heading">CURRENCY   <span id="converter">CONVERTER</span> </h1>
+    </header>
+    <div class="wrapper">
+        <p id="text">Enter Amount  :</p>
+        <input id="input-container" type="text" placeholder=100>
+        <div class="select">
+            <p id="convert-from-text">CONVERT</p>
+            <select id="from-inputs"></select>
+            <div class="toggle-button">
+                <i><svg class="t-button" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffff"><path d="M280-160 80-360l200-200 56 57-103 103h287v80H233l103 103-56 57Zm400-240-56-57 103-103H440v-80h287L624-743l56-57 200 200-200 200Z"/></svg>
+                </i>
+            </div>
+            <p id="convert-to-text">TO</p>
+            <select id="to-inputs"></select>
+        </div>
+        <button id="convert-button">CONVERT</button>
+            <input id="result-box" type="textbox" disabled>
+        </div>
+    </div>
+            <footer>
+            <p>&copy Currency Converter</p>
+            <p>Designed by Flashed-Cat</p>
+        </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
